@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #96AAB3,#D9CDCE);
-    color: white;
+    font-family: "EB Garamond", serif;
+    background: linear-gradient(135deg, #8e9aaf, #cbc0d3, #efd3d7, #dee2ff);
+    color: rgb(37, 36, 36);
     text-align: center;
     height: 100vh;
     display: flex;
@@ -11,34 +11,41 @@ body {
 }
 .container {
     padding: 50px 20px;
-    background-color: rgba(97, 94, 94);
+    background-color: #d3e0f7;
+    border: #000000;
     border-radius: 20px;
 }
 .logo {
     margin-bottom: 30px;
 }
 .logo img {
-    width: 200px;
+    width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Faz a imagem ficar circular */
+      object-fit: cover; /* Garante que a imagem seja cortada para preencher o espaço */
+      border: 3px solid #8cd4cb; /* Borda com a cor característica do Instagram */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
 .h1 {
     margin-bottom: 20px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
 }
 p {
     margin-bottom: 20px;
+    color: #000000;
 }
 .contact-section {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
 }
 .contact-item {
-    background-color: rgb(248, 249, 249);
+    background-color: #8e9aaf;
     border-radius: 10px;
     padding: 20px;
-    color: black;
+    color:  #000000;
     font-size: 18px;
     text-decoration: none;
     display: flex;
@@ -47,14 +54,14 @@ p {
     transition: background-color 0.3s ease;
 }
 .contact-item img {
-    margin-right: 10px;
+    margin-right: 20px;
     width: 30px;
 }
 .contact-item:hover {
-    background-color: #181717;
+    background-color: #efd3d7;
 }
 .icons {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 10px;

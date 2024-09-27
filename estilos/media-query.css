@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section.container {
+        width: 80vw;
+        height: 280px;
+    }
+
+    body {
+        background: linear-gradient(135deg, #8e9aaf, #cbc0d3, #efd3d7, #dee2ff);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background: linear-gradient(135deg, #8e9aaf,  #efd3d7, #dee2ff);
+    }
+}
