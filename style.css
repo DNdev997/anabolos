@@ -6,7 +6,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    height: 100vh;
+    height: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,46 +70,4 @@ p {
 }
 .icons img {
     width: 30px;
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        background-attachment: scroll; /* Remove o efeito de fundo fixo em telas pequenas */
-    }
-
-    .container {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    .contact-item {
-        display: block;
-        margin: 15px 0;
-    }
-}
-
-/* Media query para smartphones menores (até 480px de largura) */
-@media screen and (max-width: 480px) {
-    .container {
-        padding: 5px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    .logo img {
-        width: 80%; /* Reduz a imagem logo em dispositivos menores */
-    }
 }
