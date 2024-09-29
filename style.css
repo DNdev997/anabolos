@@ -1,12 +1,10 @@
 body {
-    margin: 0;
-    font-family: "EB Garamond", serif;
     background-image: url(img/Pastel\ Earthy\ Clean\ Grid\ Photography\ Mood\ Board\ Photo\ Collage\ \(1\).png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    font-family: "EB Garamond", serif;
     text-align: center;
-    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -54,7 +52,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease;
 }
 .contact-item img {
     margin-right: 20px;
