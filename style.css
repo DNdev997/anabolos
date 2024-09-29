@@ -72,6 +72,30 @@ p {
     width: 30px;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Remove o efeito de fundo fixo em telas pequenas */
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .contact-item {
+        display: block;
+        margin: 15px 0;
+    }
+}
+
+/* Media query para smartphones menores (até 480px de largura) */
 @media screen and (max-width: 480px) {
     .container {
         padding: 5px;
