@@ -1,10 +1,12 @@
 body {
     margin: 0;
     font-family: "EB Garamond", serif;
-    background: linear-gradient(135deg, #8e9aaf, #cbc0d3, #efd3d7, #dee2ff);
-    color: rgb(37, 36, 36);
+    background-image: url(img/Pastel\ Earthy\ Clean\ Grid\ Photography\ Mood\ Board\ Photo\ Collage\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
