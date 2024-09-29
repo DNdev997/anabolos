@@ -1,9 +1,12 @@
 body {
+    margin: 0;
     background-image: url(img/Pastel\ Earthy\ Clean\ Grid\ Photography\ Mood\ Board\ Photo\ Collage\ \(1\).png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     font-family: "EB Garamond", serif;
+    font-size: 18px;
+    color: #ffffff;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -12,9 +15,9 @@ body {
 }
 .container {
     padding: 20px 10px;
-    background-color: #d3e0f7;
+    background-color: transparent;
     border: #000000;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .logo {
     margin-bottom: 30px;
@@ -28,14 +31,19 @@ body {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
-.h1 {
+h1 {
     margin-bottom: 20px;
-    background-color: rgb(0, 0, 0);
-
+    color: rgb(0, 0, 0);
 }
-p {
+
+h2 {
     margin-bottom: 20px;
+    font-size: 18px;
     color: #000000;
+}
+
+p {
+    margin-bottom: 30px;
 }
 .contact-section {
     display: flex;
@@ -45,7 +53,7 @@ p {
 .contact-item {
     background-color: #8e9aaf;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     color:  #000000;
     font-size: 18px;
     text-decoration: none;
@@ -69,3 +77,4 @@ p {
 .icons img {
     width: 30px;
 }
+
